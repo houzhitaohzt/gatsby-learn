@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
   branch: master
+  repo: https://github.com/houzhitaohzt/gatsby-learn.git
 
 media_folder: static/assets
 
