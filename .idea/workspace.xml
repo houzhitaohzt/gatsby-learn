@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="942c9fc2-b22a-461c-8e71-3fbe3f89fc48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/home.scss" afterDir="false" />
+    <list default="true" id="942c9fc2-b22a-461c-8e71-3fbe3f89fc48" name="Default Changelist" comment="gatsfy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/init.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/init.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/layout.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,8 +21,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pages/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+                <state relative-caret-position="152">
+                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                     <element signature="e#361#392#0" />
@@ -132,12 +123,6 @@
               <item name="gatsby-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="gatsby-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gatsby-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gatsby-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -356,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#361#392#0" />
