@@ -1,0 +1,107 @@
+/**
+* @author: houzhitao
+* @since: 2019-05-20 15:30
+* @desc: 首页样式
+*/
+.home {
+  &-h2 {
+    font-size: 80px;
+    height: 450px;
+    line-height: 300px;
+    text-align: center;
+    text-shadow: 0 0 5px #F2512B;
+    color: #d02f37;
+    font-weight: bold;
+    background-image: -webkit-gradient(linear, left 0, right 0, from(#f25d3f), to(#d02f37));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #d02f37;
+  }
+  &-info {
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    padding-left: 620px;
+    &-img {
+      background-color: #fff;
+      padding: 70px;
+      position: absolute;
+      left: 100px;
+      top: -120px;
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+      img {
+        width: 340px;
+      }
+    }
+    &-say {
+      padding: 40px 60px 60px 0;
+      .mb {
+        margin-bottom: 22px;
+      }
+      h4 {
+        font-size: 30px;
+        color: #3accd9;
+        line-height: 60px;
+      }
+      p {
+        font-size: 14px;
+        color: #666;
+        line-height: 30px;
+      }
+      button {
+        background-color: #3accd9;
+        width: 200px;
+        height: 48px;
+        text-align: center;
+        line-height: 48px;
+        outline: none;
+        border: 0;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 60px;
+      }
+    }
+  }
+  &-skill {
+    width: 100%;
+    background-color: #f0f4f5;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    span {
+      color: #294548;
+      font-size: 18px;
+      margin: 40px 50px;
+    }
+  }
+
+  &-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px 40px 200px;
+    &-single {
+      width: 280px;
+      background-color: #fff;
+      text-align: center;
+      img {
+        width: 100%;
+      }
+      &-title {
+        text-align: center;
+        padding: 20px 0;
+        strong {
+          font-weight: bold;
+          font-size: 22px;
+          color: #c11932;
+          margin-top: 20px;
+        }
+        b {
+          font-size: 12px;
+          color: #3dccda;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}

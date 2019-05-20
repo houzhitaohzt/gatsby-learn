@@ -9,6 +9,7 @@ import "../sass/layout.scss"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header";
+import Footer from "./footer";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -23,10 +24,11 @@ const Layout = ({ children }) => (
     `}
 
     render={({site: { siteMetadata}}) => (
-      <>
+      <div className="container">
         <Header siteTitle={siteMetadata.title} />
         { children }
-      </>
+        <Footer />
+      </div>
     )}
 
   />

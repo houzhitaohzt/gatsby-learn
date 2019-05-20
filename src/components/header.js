@@ -10,9 +10,17 @@ import { Link } from "gatsby";
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <div>头部信息</div>
-    <p>{siteTitle}</p>
-    <Link to="/">第二页</Link>
+    <div className="header-content">
+      <h1 className="h1">
+        <Link to="/">{siteTitle}</Link>
+      </h1>
+      <nav className="nav">
+        <Link to="/home">首页</Link>
+        <Link to="/lift">生活</Link>
+        <Link to="/work">工作</Link>
+        <Link to="/contact">联系方式</Link>
+      </nav>
+    </div>
   </header>
 );
 

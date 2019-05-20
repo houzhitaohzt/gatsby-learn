@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `人物介绍`,
+    title: `侯治涛`,
     description: `一个非常漂亮，可爱，善良，但是凶悍的妹纸`,
     author: `monkey`
   },

@@ -65,6 +65,13 @@ table {
   box-sizing: inherit;
 }
 
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
+
 img, object, embed {max-width: 100%;}
 
 input {
@@ -87,4 +94,23 @@ input::-webkit-input-placeholder {
   clear: both;
   visibility: hidden;
   font-size: 0;
+}
+
+// 主页介绍页面
+.wrap {
+  width: 100%;
+  height: auto;
+  background: -webkit-linear-gradient(left top, #f25d3f, #d02f37);
+  background: -o-linear-gradient(left top, #f25d3f, #d02f37);
+  background: -moz-linear-gradient(left top, #f25d3f, #d02f37);
+  background: linear-gradient(left top, #f25d3f, #d02f37);
+}
+.ww {
+  width: 100%;
+  height: auto;
+  background-color: #d12942;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
 }
