@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout";
+import SEO from "../components/seo";
 import "../sass/home.scss";
 import Author from "../images/author.png";
 import A from "../images/a.png";
@@ -9,6 +10,7 @@ import C from "../images/c.png";
 
 export default () => (
   <Layout>
+    <SEO title="侯治涛" keywords={[`gatsby`, `application`, `react`]} />
     <div className="wrap home">
       <div className="content">
         <h2 className="home-h2">Frontend Engineer</h2>
