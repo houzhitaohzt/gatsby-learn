@@ -100,10 +100,10 @@ input::-webkit-input-placeholder {
 .wrap {
   width: 100%;
   height: auto;
-  background: -webkit-linear-gradient(left top, #f25d3f, #d02f37);
-  background: -o-linear-gradient(left top, #f25d3f, #d02f37);
-  background: -moz-linear-gradient(left top, #f25d3f, #d02f37);
-  background: linear-gradient(left top, #f25d3f, #d02f37);
+  background: -webkit-linear-gradient(to right, #f25d3f, #d02f37);
+  background: -o-linear-gradient(to right, #f25d3f, #d02f37);
+  background: -moz-linear-gradient(to right, #f25d3f, #d02f37);
+  background: linear-gradient(to right, #f25d3f, #d02f37);
 }
 .ww {
   width: 100%;

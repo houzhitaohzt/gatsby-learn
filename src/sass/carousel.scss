@@ -1,0 +1,87 @@
+/**
+* @author: houzhitao
+* @since: 2019-05-21 20:34
+* @desc: 轮播图插件
+*/
+
+.carousel-img {
+  position: relative;
+  overflow: hidden;
+  &-con {
+    width: 9999px;
+    img {
+      position: absolute;
+      top: 0;
+      left: 30px;
+      z-index: 0;
+    }
+  }
+  &-nav {
+    width: 170px;
+    height: 30px;
+    border: 1px solid #CCC;
+    border-radius: 15px 15px 15px 15px/15px 15px 15px 15px;
+    background-color: white;
+    box-shadow: 0 0 5px #CCCCCC;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    p {
+      width: 16px;
+      height: 16px;
+      border-radius: 8px;
+      background-color: #b1b1b1;
+      position: relative;
+      margin: 0 5px;
+      cursor: pointer;
+      span {
+        width: 2px;
+        height: 8px;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 7px;
+        display: none;
+      }
+    }
+    p.show {
+      background-color: red;
+      span {
+        display: inline-block;
+      }
+    }
+  }
+  &-bt {
+    list-style: none;
+    .last, .next {
+      width: 30px;
+      height: 60px;
+      color: white;
+      background-color: rgba(0,0,0,0.2);
+      font-size: 22px;
+      text-align: center;
+      line-height: 60px;
+      position: absolute;
+      top: 50%;
+      margin-top: -30px;
+      z-index: 10;
+      cursor: pointer;
+      display: none;
+    }
+    .last {
+      left: 0;
+    }
+    .next {
+      right: 0;
+    }
+  }
+}
+.carousel-img:hover .last,
+.carousel-img:hover .next {
+  display: inline-block;
+}
