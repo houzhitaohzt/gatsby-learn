@@ -4,7 +4,7 @@ import SEO from "../components/seo";
 import Carousel from "../components/carousel";
 import "../sass/home.scss";
 
-import Author from "../images/author.png";
+import Logo from "../images/logo.png";
 import A from "../images/a.png";
 import B from "../images/b.png";
 import C from "../images/c.png";
@@ -16,20 +16,25 @@ import M3 from "../images/3m.png";
 import M4 from "../images/4m.png";
 import M5 from "../images/5m.png";
 import M6 from "../images/6m.png";
+import M7 from "../images/7m.png";
+import M8 from "../images/8m.png";
+import M9 from "../images/9m.png";
 
 
 class Index extends React.Component {
-
   render() {
     return (
       <Layout>
         <SEO title="侯治涛" keywords={[`gatsby`, `application`, `react`]} />
         <div className="wrap home">
           <div className="content">
+            <div className="home-turn">
+              <Carousel imgArr={[M1, M2, M3, M4, M5, M6, M7, M8, M9]} />
+            </div>
             <h2 className="home-h2">Frontend Engineer</h2>
             <div className="home-info">
               <div className="home-info-img">
-                <img src={Author} alt=""/>
+                <img src={Logo} alt=""/>
               </div>
               <div className="home-info-say">
                 <h4 className="h4">前端工程师</h4>
@@ -72,9 +77,6 @@ class Index extends React.Component {
                   <b>2018</b>
                 </div>
               </div>
-            </div>
-            <div className="home-turn">
-             <Carousel imgArr={[M1, M2, M3, M4, M5, M6]} />
             </div>
           </div>
         </div>

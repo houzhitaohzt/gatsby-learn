@@ -15,8 +15,8 @@ const Header = ({ siteTitle }) => (
         <Link to="/">{siteTitle}</Link>
       </h1>
       <nav className="nav">
-        <Link to="/home">首页</Link>
-        <Link to="/lift">生活</Link>
+        <Link to="/">首页</Link>
+        <Link to="/life">生活</Link>
         <Link to="/work">工作</Link>
         <Link to="/contact">联系方式</Link>
       </nav>
